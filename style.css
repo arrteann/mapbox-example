@@ -1,0 +1,37 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  right: 50%;
+
+  z-index: 9;
+
+  transform: translate(-50%, 10%);
+
+  width: 20%;
+  margin: 2rem auto;
+  height: 4rem;
+  padding: 0.9rem 0.6rem;
+
+  background-color: #1299f3d3;
+  color: white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+#header span {
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
+}
